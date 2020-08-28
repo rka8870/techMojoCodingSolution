@@ -15,7 +15,9 @@ import java.util.Scanner;
 public class TrendingHashtags {
 
 	private static Scanner scanner;
-
+	/**
+	 * This method is entry point into the program.It prompts user to enter tweets and display trending hashtags.
+	 */
 	public static void main(String[] args) {
 		scanner = new Scanner(System.in);
 		int option = 1;
