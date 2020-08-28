@@ -1,0 +1,32 @@
+Solution to problem 1
+
+Approch
+1.Took input tweets in the form of sentences from the user repeatedly using options through console.
+2.Extracted valid tweets from the given sentence.
+3.Maintained a map ofor storing current frequency of a given hashtag.
+4.Used this map to maintain a min heap of size 10.
+5.Finally used this heap to display the top 10 trending hashtags at any particular point of time(Used stack to display in non increasing order).
+
+Instructions to run
+1.TrendingHashtags.java is the class with main methods which is the entry point.
+2.After that follow the steps as mentioned in the example.
+3.Program exits on selection of display option (2).
+
+Example.
+
+Input:-
+Enter Option :- 1
+Enter:-
+Well done #Dhoni #Dhoni #Dhoni #Dhoni #Dhoni #Dhoni #Dhoni #Dhoni #BleedBlue
+Enter Option :- 1
+Enter:-
+Legend #007 #Thala #Dhoni #Dhoni #Thala retires
+Enter Option :- 2
+
+Output:-
+
+Hashtag ---> Mentions
+1. #Dhoni ---> 10
+2. #Thala ---> 2
+3. #007 ---> 1
+4. #BleedBlue ---> 1
